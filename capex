@@ -1,0 +1,2646 @@
+Sub vai_caralho()
+'
+' vai_caralho Macro
+' Copia tudo desta caralha desta planilha para a planilha destino.
+'
+
+    'IMPLANTACAO DO SISTEMA'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K17:V20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X17:AI20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK17:AV20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX17:BI20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK17:BV20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX17:CI20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK17:CV20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX17:DI20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK17:DV20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX17:EI20").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX17").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'AMPLIACAO DO SISTEMA'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K22:V25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X22:AI25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK22:AV25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX22:BI25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK22:BV25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX22:CI25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK22:CV25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX22:DI25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK22:DV25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX22:EI25").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX22").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'MELHORIA DO SISTEMA'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K27:V30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X27:AI30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK27:AV30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX27:BI30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK27:BV30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX27:CI30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK27:CV30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX27:DI30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK27:DV30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX27:EI30").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX27").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'ADUÇÃO - Implantação e Ampliação do sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K33:V34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X33:AI34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK33:AV34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX33:BI34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK33:BV34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX33:CI34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK33:CV34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX33:DI34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK33:DV34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX33:EI34").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX33").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'ADUÇÃO - Melhoria do sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K36:V37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X36:AI37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK36:AV37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX36:BI37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK36:BV37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX36:CI37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK36:CV37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX36:DI37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK36:DV37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX36:EI37").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX36").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'ETA - Implantaçao do sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K42:V43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X42:AI43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK42:AV43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX42:BI43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK42:BV43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX42:CI43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK42:CV43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX42:DI43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK42:DV43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX42:EI43").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX42").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'ETA - Ampliacao do Sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K45:V46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X45:AI46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK45:AV46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX45:BI46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK45:BV46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX45:CI46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK45:CV46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX45:DI46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK45:DV46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX45:EI46").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX45").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'ETA - Melhoria do Sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K48:V51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X48:AI51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK48:AV51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX48:BI51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK48:BV51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX48:CI51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK48:CV51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX48:DI51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK48:DV51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX48:EI51").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Reservação - Melhoria do Sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K54:V55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X54:AI55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK54:AV55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX54:BI55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK54:BV55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX54:CI55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK54:CV55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX54:DI55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK54:DV55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX54:EI55").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX54").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Reservação - Melhoria do Sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K57:V60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X57:AI60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK57:AV60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX57:BI60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK57:BV60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX57:CI60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK57:CV60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX57:DI60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK57:DV60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX57:EI60").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX57").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Rede Distribuição - Implantação e Ampliação do Sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K63:V64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X63:AI64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK63:AV64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX63:BI64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK63:BV64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX63:CI64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK63:CV64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX63:DI64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK63:DV64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX63:EI64").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX63").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Rede Distribuição - Melhoria do Sistema'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K66:V69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X66:AI69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK66:AV69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX66:BI69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK66:BV69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX66:CI69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK66:CV69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX66:DI69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK66:DV69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX66:EI69").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX66").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'LIG. DOMICILIAR ÁGUA - Novas Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K72:V73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X72:AI73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK72:AV73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX72:BI73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK72:BV73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX72:CI73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK72:CV73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX72:DI73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK72:DV73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX72:EI73").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K75:V76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X75:AI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK75:AV76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX75:BI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK75:BV76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX75:CI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK75:CV76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX75:DI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK75:DV76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX75:EI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K75:V76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K72").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X75:AI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK75:AV76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX75:BI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK75:BV76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX75:CI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK75:CV76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX75:DI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK75:DV76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX75:EI76").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX75").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K79:V80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X79:AI80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK79:AV80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX79:BI80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK79:BV80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX79:CI80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK79:CV80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX79:DI80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK79:DV80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX79:EI80").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX79").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K82:V83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X82:AI83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK82:AV83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX82:BI83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK82:BV83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX82:CI83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK82:CV83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX82:DI83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK82:DV83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX82:EI83").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX82").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K86:V87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X86:AI87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK86:AV87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX86:BI87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK86:BV87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX86:CI87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK86:CV87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX86:DI87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK86:DV87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX86:EI87").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX86").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K89:V90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X89:AI90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK89:AV90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX89:BI90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK89:BV90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX89:CI90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK89:CV90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX89:DI90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK89:DV90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX89:EI90").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX89").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K94:V95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X94:AI95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK94:AV95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX94:BI95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK94:BV95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX94:CI95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK94:CV95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX94:DI95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK94:DV95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX94:EI95").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX94").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K97:V98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X97:AI98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK97:AV98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX97:BI98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK97:BV98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX97:CI98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK97:CV98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX97:DI98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK97:DV98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX97:EI98").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX97").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K100:V103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X100:AI103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK100:AV103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX100:BI103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK100:BV103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX100:CI103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK100:CV103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX100:DI103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK100:DV103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX100:EI103").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX100").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K106:V107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X106:AI107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK106:AV107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX106:BI107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK106:BV107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX106:CI107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK106:CV107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX106:DI107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK106:DV107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX106:EI107").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX106").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K109:V110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X109:AI110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK109:AV110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX109:BI110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK109:BV110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX109:CI110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK109:CV110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX109:DI110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK109:DV110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX109:EI110").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX109").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K112:V115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X112:AI115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK112:AV115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX112:BI115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK112:BV115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX112:CI115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK112:CV115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX112:DI115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK112:DV115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX112:EI115").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX112").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K118:V119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X118:AI119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK118:AV119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX118:BI119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK118:BV119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX118:CI119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK118:CV119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX118:DI119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK118:DV119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX118:EI119").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX118").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K121:V122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X121:AI122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK121:AV122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX121:BI122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK121:BV122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX121:CI122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK121:CV122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX121:DI122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK121:DV122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX121:EI122").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX121").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K125:V130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X125:AI130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK125:AV130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX125:BI130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK125:BV130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX125:CI130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK125:CV130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX125:DI130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK125:DV130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX125:EI130").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX125").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ligação Domiciliar Água - Substituição de Ligações Domiciliares'
+    'Ano 1'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("K132:V137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("K132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano2'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("X132:AI137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("X132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano3'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AK132:AV137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AK132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano4'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("AX132:BI137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("AX132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano5'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BK132:BV137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BK132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano6'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("BX132:CI137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("BX132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano7'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CK132:CV137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CK132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano8'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("CX132:DI137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("CX132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano9'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DK132:DV137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DK132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    'Ano10'
+    Workbooks("origem.xlsx").Worksheets(1).Activate
+    Range("DX132:EI137").Select
+    Selection.Copy
+    Workbooks("destino.xlsx").Worksheets(1).Activate
+    Range("DX132").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+
+    End Sub
